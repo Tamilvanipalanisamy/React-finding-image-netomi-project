@@ -1,0 +1,13 @@
+.each-item-list {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.image-style {
+  width: 100px;
+  height: 100px;
+}
