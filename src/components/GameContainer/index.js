@@ -89,8 +89,10 @@ const gameData = [
   },
 ];
 
+const shuffledGameData = gameData.sort(() => Math.random() - 0.5);
+
 const GameContainer = () => {
-  const [cardList, setCardList] = useState([...gameData]);
+  const [cardList, setCardList] = useState([...shuffledGameData]);
   const [firstCard, setFirstCard] = useState(null);
   const [secondCard, setSecondCard] = useState(null);
 
